@@ -10,8 +10,8 @@ docker container run \
 #Segundo exercício:
 
 #Interrompendo a execução por conta do exercício anterior
-sudo docker container stop mycaddy
-sudo docker container rm mycaddy
+docker container stop mycaddy
+docker container rm mycaddy
 
 #iniciando um novo container usando volumes
 docker container run \
